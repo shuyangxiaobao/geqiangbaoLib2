@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'geqiangbaoLib2_Example' do
-  pod 'geqiangbaoLib2', :path => '../'
+  pod 'geqiangbaoLib2', :path => '../geqiangbaoLib2.podspec'
 
   target 'geqiangbaoLib2_Tests' do
     inherit! :search_paths
