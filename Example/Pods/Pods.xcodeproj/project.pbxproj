@@ -327,6 +327,8 @@
 		8CE42337022021AE45B4E067D494C32F /* EXPUnsupportedObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPUnsupportedObject.h; path = Expecta/EXPUnsupportedObject.h; sourceTree = "<group>"; };
 		8EA9E6566FF221100CCEEE3AE7F7FF60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8F63B0FF272D1EB750D82F3EADA2D2CA /* EXPExpect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPExpect.h; path = Expecta/EXPExpect.h; sourceTree = "<group>"; };
+		90A3C7612043BD4300FF07E1 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		90A3C7622043BD4300FF07E1 /* Snip20180201_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20180201_1.png; sourceTree = "<group>"; };
 		91453F85BD953E023DC76351FFEA1D94 /* EXPMatchers+beginWith.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beginWith.m"; path = "Expecta/Matchers/EXPMatchers+beginWith.m"; sourceTree = "<group>"; };
 		91EC2AD8B04A0D0F0EC345F2B7070A95 /* EXPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPDefines.h; path = Expecta/EXPDefines.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -574,6 +576,7 @@
 		3F8652ADF8E8F5CE253DB8518E965379 /* geqiangbaoLib2 */ = {
 			isa = PBXGroup;
 			children = (
+				90A3C7602043BD4300FF07E1 /* Assets */,
 				3BB50904D4F60ED9B3477C32BCABBA72 /* ReplaceMe.m */,
 				56BC4C0C503B15AE04AD3CA57916FF29 /* Controller */,
 				047F301BB673A37D31C4D2646A5E034F /* Pod */,
@@ -717,6 +720,16 @@
 				260A113E9B846FE68F60B6B4736EDA10 /* Products */,
 				6ABC05687C0DE4F5992A543A9FC54998 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		90A3C7602043BD4300FF07E1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				90A3C7612043BD4300FF07E1 /* .gitkeep */,
+				90A3C7622043BD4300FF07E1 /* Snip20180201_1.png */,
+			);
+			name = Assets;
+			path = geqiangbaoLib2/Assets;
 			sourceTree = "<group>";
 		};
 		9D436BD33971C4AB440A4CFDD960EAF3 /* Support Files */ = {
