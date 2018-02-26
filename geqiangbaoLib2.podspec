@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'geqiangbaoLib2'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'geqiangbaoLib2.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'geqiangbaoLib2/Classes/**/*'
+  s.source_files = 'geqiangbaoLib2/Classes/**/*' , 'geqiangbaoLib2/Assets/**/*'
   
   # s.resource_bundles = {
   #  'geqiangbaoLib2' => ['geqiangbaoLib2/Assets/**/*']
