@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'geqiangbaoLib2_Example' do
+  pod 'geqiangbaoLib2', :path => '../'
+
+  target 'geqiangbaoLib2_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
